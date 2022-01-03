@@ -1,0 +1,8 @@
+.startus-bar {
+  display: flex;
+  position: sticky;
+}
+.startus-bar__home__icon {
+  width: 150px;
+  height: 50px;
+}
