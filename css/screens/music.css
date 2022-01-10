@@ -1,0 +1,32 @@
+.isedol-music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  padding: 3% 10%;
+}
+.isedol-music__album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.isedol-music__album img {
+  width: 100%;
+  height: 100%;
+}
+
+.isedol-music__arrow {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.isedol-music i {
+  width: 5%;
+  height: 5%;
+}
