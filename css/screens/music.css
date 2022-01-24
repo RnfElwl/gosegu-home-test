@@ -1,32 +1,19 @@
-.isedol-music {
+main .isedol-music {
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-  height: 100%;
-  padding: 3% 10%;
+  justify-content: space-around;
+  background-color: rgb(27, 27, 27);
 }
-.isedol-music__album {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 100%;
+main .isedol-music img {
   height: 100%;
 }
-.isedol-music__album img {
-  width: 100%;
-  height: 100%;
+main .isedol-music a {
+  width: auto;
+  margin: 2%;
+  padding: 3px 10px;
+  border-radius: 100%;
+  background-color: rgb(99, 99, 99);
 }
-
-.isedol-music__arrow {
-  position: absolute;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-}
-
-.isedol-music i {
-  width: 5%;
-  height: 5%;
-}
+/*화면 작아지면 화살표나 이미지 비율 줄이자*/

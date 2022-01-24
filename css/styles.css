@@ -3,12 +3,12 @@
 @import "reset.css";
 
 /* Components */
-@import "components/status-bar.css";
 
 /* Screens */
 @import "screens/header.css";
 @import "screens/music.css";
-
+@import "screens/member.css";
+@import "screens/chating.css";
 body {
   height: 1000vh;
 }

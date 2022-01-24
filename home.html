@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html rang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link
       rel="shortcut icon"
       sizes="16x16 32x32 64x64"
@@ -35,20 +35,13 @@
 
     <main>
       <section class="isedol-music">
-        <div class="isedol-music__album">
-          <a href="">
-            <img src="img/REWIND.jpg" />
-          </a>
-        </div>
-        <div class="isedol-music__arrow">
-          <a href="">
-            <i class="fas fa-angle-left fa-2x"></i>
-          </a>
-
-          <a href="">
-            <i class="fas fa-angle-right fa-2x"></i>
-          </a>
-        </div>
+        <a class="left" href="">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+        <img src="img/REWIND.jpg" alt="" />
+        <a class="right" href="">
+          <i class="fas fa-angle-right fa-2x"></i>
+        </a>
       </section>
       <section class="isedol-member">
         <div class="isedol-member__mevos"><img /><img /></div>
@@ -56,7 +49,24 @@
         <div class="isedol-member__youngests"><img /><img /></div>
       </section>
     </main>
-
+    <member>
+      <div class="frofil first">
+        <img src="img/member.png" alt="" />
+        <img src="img/member.png" alt="" />
+        <img src="img/member.png" alt="" />
+      </div>
+      <div class="frofil second">
+        <img src="img/member.png" alt="" />
+        <img src="img/member.png" alt="" />
+        <img src="img/member.png" alt="" />
+      </div>
+    </member>
+    <chating>
+      <h1 class="title">chating</h1>
+      <div class="chat">
+        <input type="text" value="이쁜 말 해주세요" />
+      </div>
+    </chating>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

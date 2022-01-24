@@ -1,0 +1,14 @@
+member {
+  display: flex;
+  justify-content: center;
+}
+member .frofil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+member .frofil img {
+  padding: 50px;
+}
